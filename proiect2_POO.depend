@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1574889790 source:c:\users\irina\documents\proiect2_poo\main.cpp
+	<iostream>
+	"Complex.h"
+	"Matrice.h"
+	"Matrice_oarecare.h"
+	"Matrice_patratica.h"
+	<vector>
+	<cstdlib>
+	"Citire_si_Afisare.h"
+
+1574887544 c:\users\irina\documents\proiect2_poo\include\complex.h
+	<vector>
+	<cstdlib>
+
+1574887544 c:\users\irina\documents\proiect2_poo\include\matrice.h
+	<cstdlib>
+	<vector>
+
+1574848906 c:\users\irina\documents\proiect2_poo\include\matrice_oarecare.h
+	<vector>
+	<cstdlib>
+
+1574881585 c:\users\irina\documents\proiect2_poo\include\matrice_patratica.h
+	<cstdlib>
+	<vector>
+
+1574889583 source:c:\users\irina\documents\proiect2_poo\src\complex.cpp
+	<iostream>
+	"Complex.h"
+	"Matrice.h"
+	"Matrice_oarecare.h"
+	"Matrice_patratica.h"
+	"Citire_si_Afisare.h"
+	<vector>
+	<cstdlib>
+
+1574847460 source:c:\users\irina\documents\proiect2_poo\src\matrice.cpp
+	<iostream>
+	"Complex.h"
+	"Matrice.h"
+	"Matrice_oarecare.h"
+	"Matrice_patratica.h"
+	"Citire_si_Afisare.h"
+	<vector>
+	<cstdlib>
+
+1574864507 source:c:\users\irina\documents\proiect2_poo\src\matrice_oarecare.cpp
+	<iostream>
+	"Complex.h"
+	"Matrice.h"
+	"Matrice_oarecare.h"
+	"Matrice_patratica.h"
+	"Citire_si_Afisare.h"
+	<vector>
+	<cstdlib>
+
+1574887544 source:c:\users\irina\documents\proiect2_poo\src\matrice_patratica.cpp
+	<iostream>
+	"Complex.h"
+	"Matrice.h"
+	"Matrice_oarecare.h"
+	"Matrice_patratica.h"
+	"Citire_si_Afisare.h"
+	<vector>
+	<cstdlib>
+	<cmath>
+
+1574847460 source:c:\users\irina\documents\proiect2_poo\src\citire_si_afisare.cpp
+	"Citire_si_Afisare.h"
+	<iostream>
+	"Complex.h"
+	"Matrice.h"
+	"Matrice_oarecare.h"
+	"Matrice_patratica.h"
+	<vector>
+	<cstdlib>
+
+1574845412 c:\users\irina\documents\proiect2_poo\include\citire_si_afisare.h
+	"Citire_si_Afisare.h"
+	<iostream>
+	"Complex.h"
+	"Matrice.h"
+	"Matrice_oarecare.h"
+	"Matrice_patratica.h"
+	<vector>
+	<cstdlib>
+	<memory>
+
