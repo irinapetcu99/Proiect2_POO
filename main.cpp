@@ -22,7 +22,21 @@ int main()
     cout << "6 - Citirea a n obiecte;" << endl;
     cout << "0 - Sfarsitul programului;" << endl;
     cin >> op;
+    int c = 0;
+
+    try
+    {
+        if( op < 0 || op > 6 )
+            throw c;
+    }
+        catch(int c)
+    {
+        cout << "introduceti alta valoare!" << endl << endl;
+
+    }
     switch(op)
+
+
     {
         case 1:
     {
@@ -45,8 +59,9 @@ int main()
     }
         case 3:
     {
-        cout << "nu merg supraincarcarile de operatori din clasa complex mereu si nu stiu de ce" << endl;
-        cout << "am incercat" << endl;
+        Matrice_patratica p;
+        cin>>p;
+        p.determinant();
         break;
     }
         case 4:
@@ -79,6 +94,7 @@ int main()
         break;
     }
     }
+
     }
 
 

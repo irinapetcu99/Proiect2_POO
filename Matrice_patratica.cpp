@@ -31,9 +31,26 @@ Matrice_patratica& Matrice_patratica :: operator = (const Matrice_patratica &ob)
     return *this;
 }
 
-Complex& Matrice_patratica :: determinant()
+Complex Matrice_patratica :: determinant()
 {
 ///nu merg supraincarcarile de operatori din clasa complex mereu si nu stiu de ce
+Complex p(1,0);
+  if (n==1)
+   return v[0][0];
+  int x=0;
+  int i,j;
+  while(n-x>2){
+    for(i=x+1;i<n;i++)
+      for(j=x+1;j<n;j++)
+        v[i][j]=v[i][j]-((v[x][j]*v[i][x])/v[x][x]);
+    p=p*v[x][x];
+    x++;
+
+  }
+
+  p=p*((v[x][x]*v[x+1][x+1])-(v[x][x+1]*v[x+1][x]));
+
+ cout<< p;
 
 }
 

@@ -22,10 +22,10 @@ class Complex
         Complex(const Complex &ob);
         ///metode-operator de atribuire =
         Complex& operator = ( const Complex &ob );
-        Complex& operator + (const Complex& ob);
-        Complex& operator * (const Complex& ob);
-        Complex& operator - (const Complex& ob);
-        Complex& operator / (const Complex& ob);
+        Complex operator + (const Complex& ob);
+        Complex operator * (const Complex& ob);
+        Complex operator - (const Complex& ob);
+        Complex operator / (const Complex& ob);
         ///metoda de afisare a unui numar complex
         friend ostream& operator << ( ostream&, Complex& );
         ///metoda de citire a unui numar complex
